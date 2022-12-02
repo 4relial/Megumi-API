@@ -1,0 +1,38 @@
+{
+  "name": "@upscalerjs/examples.nodejs",
+  "private": true,
+  "version": "1.0.0-beta.6",
+  "description": "Demonstration of Node.js usage of UpscalerJS",
+  "author": "Kevin Scott",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js localhost 8080"
+  },
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "cheerio": "^1.0.0-rc.12",
+    "deepai": "^1.0.21",
+    "express": "^4.18.2",
+    "fb-downloader-scrapper": "^1.0.3",
+    "form-data": "^4.0.0",
+    "imagemaker.js": "github:4relial/imagemaker.js",
+    "jpeg-js": "^0.4.4",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "multisort": "^0.5.3",
+    "node-fetch": "^3.2.10",
+    "nsfwjs": "^2.4.2",
+    "qs": "^6.11.0",
+    "rimraf": "^3.0.2",
+    "sharp": "^0.31.1",
+    "ytdl-core": "github:fent/node-ytdl-core"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
